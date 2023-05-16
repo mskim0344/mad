@@ -1,0 +1,39 @@
+*{margin: 0; padding: 0;}
+ul,li{list-style:  none;}
+a{
+    color: #222;
+    text-decoration: none;
+}
+a:hover{
+    color:red;
+}
+
+.rel{ position: relative;}
+.abs{ position: absolute;}
+.d-flex{display: flex;}
+.jcc{justify-content: center;}
+.jcb{justify-content: space-between;}
+.alc{align-items: center;}
+.d-block{ display: block;}
+.h100{height: 100px;}
+.h300{height: 300px;}
+.container{width:1200px; margin:0 auto}
+#hd{    background-color: aqua;}
+
+
+.d2ul{
+    background-color: white;
+    height:0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+#gun > li:hover .d2ul{
+    height:80px;
+   
+    position: absolute;
+    
+}
+.dia{
+    padding: 15px;
+}
